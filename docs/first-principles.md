@@ -94,4 +94,4 @@ There is always ambiguity in these decisions until there is not. Good security a
 
 Security architecture is not about eliminating risk. It is about making **deliberate, informed choices** to protect what matters most.
 
-By focusing on people first, enforcing intent through architecture, and sharing accountability across systems and teams, security becomes a sustainable part of how systems are designed and operated—rather than a reactive response to failure.
+By focusing on people first, enforcing intent through architecture, and sharing accountability across systems and teams, security becomes a sustainable part of how systems are designed and operated, rather than a reactive response to failure.
