@@ -24,7 +24,7 @@ requires security consideration at that point of interaction.
 
 This is why concepts like ports versus protocols, network boundaries, identity, and application behavior all matter. If something can be accessed, invoked, or interacted with, then it participates in the system’s security posture.
 
-When security controls are reduced or relaxed in one layer—such as on a trusted network or internal VLAN—the responsibility for protection does not disappear. Instead, it **moves elsewhere**. This redistribution of responsibility is the foundation of defense in depth: not redundancy for its own sake, but intentional compensation across layers.
+When security controls are reduced or relaxed in one layer, such as on a trusted network or internal VLAN, the responsibility for protection does not disappear. Instead, it **moves elsewhere**. This redistribution of responsibility is the foundation of defense in depth: not redundancy for its own sake, but intentional compensation across layers.
 
 ---
 
@@ -34,13 +34,13 @@ Intent is essential to security design. It reflects what a system is meant to do
 
 However, **intent alone does not protect people or data**.
 
-Protection occurs only when intent is translated into enforcement—when systems actively constrain behavior rather than assume it. Open ports that are “not meant to be used,” trusted networks that are “not supposed to be abused,” or controls that exist only on paper all represent intent without enforcement.
+Protection occurs only when intent is translated into enforcement, when systems actively constrain behavior rather than assume it. Open ports that are “not meant to be used,” trusted networks that are “not supposed to be abused,” or controls that exist only on paper all represent intent without enforcement.
 
 Accountability is what connects intent and enforcement.
 
-Accountability does not imply punishment or blame. Instead, it reflects **shared ownership of outcomes**. If a security artifact, asset, or control exists without clear ownership, enforcement, or accountability, it does not meaningfully protect people. In those cases, failure is not an individual mistake—it is a system design failure.
+Accountability does not imply punishment or blame. Instead, it reflects **shared ownership of outcomes**. If a security artifact, asset, or control exists without clear ownership, enforcement, or accountability, it does not meaningfully protect people. In those cases, failure is not an individual mistake, it is a system design failure.
 
-Strong security architecture assumes that humans will make mistakes and designs guardrails accordingly. This includes validating assumptions before deployment, enabling teams to do the right thing by default, and detecting gaps early rather than after harm occurs. How this is implemented—through policy, pipelines, validation, or other mechanisms—is context-dependent and intentionally left out of scope here.
+Strong security architecture assumes that humans will make mistakes and designs guardrails accordingly. This includes validating assumptions before deployment, enabling teams to do the right thing by default, and detecting gaps early rather than after harm occurs. How this is implemented through policy, pipelines, validation, or other mechanisms, is context-dependent and intentionally left out of scope here.
 
 ---
 
@@ -48,7 +48,7 @@ Strong security architecture assumes that humans will make mistakes and designs 
 
 Security controls are best understood as **guardrails**.
 
-They exist to enable systems and people to operate safely within defined constraints, not to eliminate risk entirely. Controls shape behavior, reduce blast radius, and provide structure—but they are also assumptions that must be tested, maintained, and revisited over time.
+They exist to enable systems and people to operate safely within defined constraints, not to eliminate risk entirely. Controls shape behavior, reduce blast radius, and provide structure, but they are also assumptions that must be tested, maintained, and revisited over time.
 
 Controls without ownership, visibility, or maintenance degrade quietly. Over time, they can become sources of false confidence rather than protection. Effective security architecture treats controls as living components of a system, not static guarantees.
 
@@ -72,7 +72,7 @@ This is why preventive thinking matters. Designing for security early, and conti
 
 ## Attackers as a design consideration
 
-Understanding how systems can be misused is not an afterthought—it is a design input.
+Understanding how systems can be misused is not an afterthought, it is a design input.
 
 Considering attacker behavior early in the architectural process helps teams identify unnecessary exposure, weak enforcement points, and misplaced trust before systems are built and deployed. This approach saves time, reduces cost, and avoids rework later.
 
